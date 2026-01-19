@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/mass_fast_product_kernel_density_analysis" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

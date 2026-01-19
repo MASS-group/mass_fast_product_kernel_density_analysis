@@ -7,7 +7,7 @@ name=MASS: Fast Product Kernel Density Analysis
 qgisMinimumVersion=3.0
 description=Algorithm for fast product kernel density estimation and spatial analysis of large geospatial datasets
 
-version=0.1
+version=1.0.0
 author=MASS-group
 email=masspkdv@outlook.com
 

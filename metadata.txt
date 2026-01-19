@@ -3,13 +3,12 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=MASS: A Fast Product Kernel Density Analysis
+name=MASS: Fast Product Kernel Density Analysis
 qgisMinimumVersion=3.0
 description=Algorithm for fast product kernel density estimation and spatial analysis of large geospatial datasets
 
 version=0.1
 author=MASS-group
-email=yovela12138@gmail.com
 
 about=This QGIS plugin performs fast product kernel density estimation, generating high‐resolution kernel density visualizations for large geospatial datasets. The algorithm has achieved optimal time complexity for this type of method.
 

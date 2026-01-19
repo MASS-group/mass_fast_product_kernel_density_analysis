@@ -9,6 +9,7 @@ description=Algorithm for fast product kernel density estimation and spatial ana
 
 version=0.1
 author=MASS-group
+email=masspkdv@outlook.com
 
 about=This QGIS plugin performs fast product kernel density estimation, generating high‐resolution kernel density visualizations for large geospatial datasets. The algorithm has achieved optimal time complexity for this type of method.
 

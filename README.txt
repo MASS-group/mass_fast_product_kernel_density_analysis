@@ -1,26 +1,36 @@
-Plugin Builder Results
+# MASS: A Fast Product Kernel Density Analysis
 
-What's Next:
+## Overview
+This QGIS plugin implements a fast product kernel density analysis method designed for efficient spatial analysis of large geospatial datasets.  
+The plugin focuses on improving the computational performance of kernel density estimation while preserving accuracy, making it suitable for large-scale spatial experiments and research use.
 
-  * Copy the entire directory containing your new plugin to the QGIS plugin
-    directory
+## Functionality
+- Perform kernel density analysis based on product kernels
+- Support large datasets through optimized computation
+- Generate density-related results for further analysis and visualization
 
-  * Compile the resources file using pyrcc5
+## Input Data
+- **Input format:** `.dat` file  
+- The input `.dat` file contains experimental spatial data used for kernel density analysis.
+- The user must **manually select** the input experimental data file when running the plugin.
 
-  * Run the tests (``make test``)
+## Output Data
+- **Output format:** `.txt` file  
+- The output `.txt` file stores the computed results of the kernel density analysis.
+- The user must **manually specify** the destination and filename for the output `.txt` file.
 
-  * Test the plugin by enabling it in the QGIS plugin manager
+## Usage Workflow
+1. Open QGIS and load the plugin.
+2. Launch the MASS kernel density analysis tool.
+3. Manually select the input experimental data file (`.dat`).
+4. Choose the location and name of the output result file (`.txt`).
+5. Run the analysis and wait for the computation to finish.
+6. Use the generated `.txt` file for further analysis or visualization.
 
-  * Customize it by editing the implementation file: ``mass_fast_product_kernel_density_analysis.py``
+## Notes
+- This plugin is intended for research and experimental purposes.
+- Ensure that the input `.dat` file follows the expected data format before running the analysis.
+- Large datasets may require additional computation time depending on hardware resources.
 
-  * Create your own custom icon, replacing the default icon.png
-
-  * Modify your user interface by opening MASSPlugin_dialog_base.ui in Qt Designer
-
-  * You can use the Makefile to compile your Ui and resource files when
-    you make changes. This requires GNU make (gmake)
-
-For more information, see the PyQGIS Developer Cookbook at:
-http://www.qgis.org/pyqgis-cookbook/index.html
-
-(C) 2011-2018 GeoApt LLC - geoapt.com
+## License
+This plugin is released under the **GNU General Public License v2 or later (GPL-2.0-or-later)**.
